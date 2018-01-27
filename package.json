@@ -1,0 +1,30 @@
+{
+  "name": "@instancejs/react-forms",
+  "version": "0.0.2",
+  "description": "Simple Form Components For React",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaptree/instancejs-react-forms.git"
+  },
+  "keywords": [
+    "react",
+    "forms"
+  ],
+  "peerDependencies": {
+    "react": "^15.0.0-0 || ^16.0.0-0"
+  },
+  "author": "jumaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaptree/instancejs-react-forms/issues"
+  },
+  "homepage": "https://github.com/zaptree/instancejs-react-forms#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0"
+  }
+}

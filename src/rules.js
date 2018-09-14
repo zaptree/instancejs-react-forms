@@ -97,7 +97,7 @@ const zipUSA = () => _zipUSA;
 
 const required = cacheEmpty((dependsOn, dependsValue, msg) => ({
   validator: (value, data) => {
-    const _value = (value || '').trim();
+    const _value = typeof value === 'string' ? value.trim() : value;
     if (dependsOn) {
       if ((!dependsValue && !data[dependsOn].value && arguments.length < 4) || (data[dependsOn].value !== dependsValue)) {
         return false;
